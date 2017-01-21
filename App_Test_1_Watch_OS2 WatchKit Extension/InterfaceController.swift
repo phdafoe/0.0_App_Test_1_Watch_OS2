@@ -14,8 +14,8 @@ class InterfaceController: WKInterfaceController {
     
     //MARK: - VARIABLES LOCALES GLOBALES
     let someString = "Andres"
-    let orangeColor : UIColor = UIColor.orangeColor()
-    let blueColor : UIColor = UIColor.blueColor()
+    let orangeColor : UIColor = UIColor.orange
+    let blueColor : UIColor = UIColor.blue
     var sliderValue : Float = 0
     
     
@@ -35,7 +35,7 @@ class InterfaceController: WKInterfaceController {
         
     }
     
-    @IBAction func mySwitchACTION(value: Bool) {
+    @IBAction func mySwitchACTION(_ value: Bool) {
 
         if value == true{
             
@@ -50,7 +50,7 @@ class InterfaceController: WKInterfaceController {
     }
     
     
-    @IBAction func mySliderACTION(value: Float) {
+    @IBAction func mySliderACTION(_ value: Float) {
         
         sliderValue = value
         action3()
@@ -59,9 +59,9 @@ class InterfaceController: WKInterfaceController {
     }
 
     
-    override func awakeWithContext(context: AnyObject?) {
+    override func awake(withContext context: Any?) {
         //"Despierta" con el contexto
-        super.awakeWithContext(context)
+        super.awake(withContext: context)
         
         action3()
         
@@ -113,16 +113,15 @@ class InterfaceController: WKInterfaceController {
     func action3(){
         
         if sliderValue == 1{
-            mySlider.setColor(UIColor.blueColor())
-            
+            mySlider.setColor(UIColor.blue)
         }else if sliderValue == 3{
-            mySlider.setColor(UIColor.greenColor())
+            mySlider.setColor(UIColor.green)
         }else if sliderValue == 5{
-            mySlider.setColor(UIColor.orangeColor())
+            mySlider.setColor(UIColor.orange)
         }else if sliderValue == 7{
-            mySlider.setColor(UIColor.magentaColor())
+            mySlider.setColor(UIColor.magenta)
         }else if sliderValue == 10{
-            mySlider.setColor(UIColor.redColor())
+            mySlider.setColor(UIColor.red)
         }
     }
     

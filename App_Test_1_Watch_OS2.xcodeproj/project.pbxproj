@@ -329,6 +329,7 @@
 				TargetAttributes = {
 					63A48DBA1C4BAE74002C7516 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					63A48DCE1C4BAE74002C7516 = {
 						CreatedOnToolsVersion = 7.2;
@@ -340,9 +341,11 @@
 					};
 					63A48DE21C4BAE74002C7516 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 					63A48DF11C4BAE74002C7516 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -591,6 +594,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -605,6 +609,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -621,6 +626,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -637,6 +643,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -650,6 +657,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icologic.App-Test-1-Watch-OS2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -661,6 +669,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icologic.App-Test-1-Watch-OS2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -731,6 +740,7 @@
 				63A48E061C4BAE74002C7516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A48E081C4BAE75002C7516 /* Build configuration list for PBXNativeTarget "App_Test_1_Watch_OS2 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +749,7 @@
 				63A48E0A1C4BAE75002C7516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A48E0C1C4BAE75002C7516 /* Build configuration list for PBXNativeTarget "App_Test_1_Watch_OS2" */ = {
 			isa = XCConfigurationList;
@@ -747,6 +758,7 @@
 				63A48E0E1C4BAE75002C7516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A48E0F1C4BAE75002C7516 /* Build configuration list for PBXNativeTarget "App_Test_1_Watch_OS2Tests" */ = {
 			isa = XCConfigurationList;
@@ -755,6 +767,7 @@
 				63A48E111C4BAE75002C7516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A48E121C4BAE75002C7516 /* Build configuration list for PBXNativeTarget "App_Test_1_Watch_OS2UITests" */ = {
 			isa = XCConfigurationList;
@@ -763,6 +776,7 @@
 				63A48E141C4BAE75002C7516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
